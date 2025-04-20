@@ -1,0 +1,19 @@
+.quizIcon {
+    height: 210px;
+    margin-top: 20px;
+    width: 150px;
+}
+
+@media screen and (min-width: 640px) {
+    .quizIcon {
+        height: 280px;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 1200px ) {
+    .quizIcon {
+        height: 300px;
+        width: 200px;
+    }
+}

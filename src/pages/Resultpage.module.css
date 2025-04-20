@@ -1,0 +1,148 @@
+.section {
+    position: relative;
+    top: 60px;
+    width: 100%;
+}
+
+.summary {
+    font-size: 1.5em;
+    position: relative;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.report_parent {
+    display: flex;
+    flex-flow: column nowrap;
+    height: fit-content;
+    justify-content: center;
+    gap: 12px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.report_child{
+    box-shadow: rgba(60, 128, 209, 0.09) 0px 12px 19px;
+    margin-bottom: 0;
+    padding: 15px;
+}
+
+.question_para{
+    font-size: 1.3em;
+    line-height: 1.5em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.option_para{
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.checkmark {
+    margin-left: 5px;
+}
+
+.correct_ans {
+    border: 2px solid rgba(0, 151, 63, 0.3);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.false_ans {
+    border: 2px solid #eea4c9;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.button {
+    background-color: rgb(22, 161, 76);
+    border: none;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    justify-content: center;
+    gap: 10px;
+    padding:8 16px;
+    margin: 10px auto;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.button:hover {
+    background-color: rgb(34, 77, 34);
+    cursor: pointer;
+}
+
+.icon {
+    padding-top: 5px;
+}
+
+@media screen and (min-width: 1200px) {
+    .section {
+        top: 60px;
+    }
+    
+    .summary {
+        font-size: 1.5em;
+        margin: 20px auto;
+    }
+    
+    .report_parent {
+        gap: 12px;
+        margin: 0 auto;
+        width: 50%;
+    }
+    
+    .report_child{
+        margin-bottom: 0;
+        padding: 15px;
+    }
+    
+    .question_para{
+        font-size: 1em;
+        line-height: 1.5em;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    
+    .option_para{
+        font-size: 0.9em;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    
+    .checkmark {
+        margin-left: 10px;
+    }
+
+    .falseicon {
+        margin-left: 10px;
+        padding-top: 5px;
+    }
+    
+    .button {
+        gap: 10px;
+        padding:8 16px;
+        margin: 10px auto;
+    }
+    
+    .icon {
+        padding-top: 5px;
+    }
+    
+}
