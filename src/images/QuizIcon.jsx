@@ -1,4 +1,4 @@
-import classes from './QuizIcon.module.css';
+import * as classes from './QuizIcon.module.css';
 
 const QuizIcon = (props) => (
   <svg

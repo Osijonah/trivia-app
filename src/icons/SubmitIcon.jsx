@@ -1,4 +1,4 @@
-import classes from "./SubmitIcon.module.css";
+import * as classes from "./SubmitIcon.module.css";
 
 const SubmitIcon = () => (
   <svg

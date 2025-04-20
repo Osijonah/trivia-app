@@ -1,4 +1,4 @@
-import classes from'./Checkmark.module.css';
+import * as classes from'./Checkmark.module.css';
 
 const Checkmark = () => (
   <svg

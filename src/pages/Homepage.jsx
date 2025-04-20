@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 
-import classes from "./Homepage.module.css";
+import * as classes from "./Homepage.module.css";
 import QuizIcon from "../images/QuizIcon";
 
 const Homepage = () => {

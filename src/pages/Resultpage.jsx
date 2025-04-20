@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import classes from './Resultpage.module.css';
+import * as classes from './Resultpage.module.css';
 
 import Checkmark from '../icons/Checkmark';
 import WrongIcon from '../icons/WrongIcon';

@@ -1,4 +1,4 @@
-import classes from'./WrongIcon.module.css';
+import * as classes from'./WrongIcon.module.css';
 
 const WrongIcon = () => (
   <svg

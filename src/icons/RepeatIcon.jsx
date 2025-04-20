@@ -1,4 +1,4 @@
-import classes from './RepeatIcon.module.css';
+import * as classes from './RepeatIcon.module.css';
 
 const RepeatIcon = () => (
   <svg

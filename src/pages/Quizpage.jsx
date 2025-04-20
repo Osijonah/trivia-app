@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from 'react-router-dom';
 
-import classes from "./Quizpage.module.css";
+import * as classes from "./Quizpage.module.css";
 import WrongIcon from "../icons/WrongIcon";
 import Checkmark from "../icons/Checkmark";
 import NextIcon from "../icons/NextIcon";

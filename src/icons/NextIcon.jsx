@@ -1,4 +1,4 @@
-import classes from './NextIcon.module.css';
+import * as classes from './NextIcon.module.css';
 
 const NextIcon = () => (
     <svg 
