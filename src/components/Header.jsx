@@ -7,7 +7,7 @@ const Header = ({children}) => {
         <header className={classes.header}>
             <p>TrivialApp</p>
         </header>
-        <section className={classes.section}>{children}</section>
+        <section>{children}</section>
     </main>
 }
 

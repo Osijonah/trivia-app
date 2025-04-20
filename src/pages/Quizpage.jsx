@@ -125,7 +125,7 @@ const Quizpage = ({ resultData, setResultData }) => {
             {noOption && <span className={classes.no_option}>Please, answer this question</span>}
 
             {isLastQuestion ? 
-                <button className={classes.submit} onClick={()=>handleContinue(index)}>
+                <button onClick={()=>handleContinue(index)}>
                     SUBMIT     
                     <span><SubmitIcon /></span>
                 </button>
